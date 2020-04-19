@@ -10,7 +10,7 @@ const TYPE_TWO_PART = "twopart";
 function execute() {
   request(url, function (error, response, body) {
     if (error) console.error(error);
-    // && !!body.setup
+
     if (response.statusCode === 200) {
       let response = JSON.parse(body);
       if (response.type == TYPE_SINGLE) {

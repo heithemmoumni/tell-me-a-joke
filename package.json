@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "tell-me-a-joke",
   "version": "1.0.0",
   "description": "SvelteMindmap is a svelte component for mindnode maps",
   "main": "index.js",

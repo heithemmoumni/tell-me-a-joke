@@ -1,5 +1,5 @@
 const request = require("request");
-const url = "https://official-joke-api.appspot.com/jokes/random";
+const url = "https://official-joke-api.appspot.com/jokes/random?type=programming";
 
 (function execute() {
   request(url, function (error, response, body) {
